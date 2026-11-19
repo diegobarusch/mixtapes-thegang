@@ -1,1 +1,216 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Gang — Mixtapes 2026</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 25px 15px;
+      background: #171329;
+      color: #f6efff;
+      font-family: Verdana, Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 25px auto;
+      padding: 25px;
+      background: #241d3b;
+      border: 2px solid #a58acb;
+      box-shadow: 8px 8px 0 #0c0916;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-bottom: 15px;
+      border-bottom: 1px dashed #8876ad;
+      color: #c9b5ef;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    header {
+      text-align: center;
+      padding: 45px 10px 35px;
+    }
+
+    .sparkle {
+      color: #e6a9d1;
+      font-size: 22px;
+    }
+
+    h1 {
+      margin: 12px 0;
+      font-family: Georgia, serif;
+      font-size: clamp(34px, 7vw, 58px);
+      font-weight: normal;
+      letter-spacing: -2px;
+    }
+
+    .subtitle {
+      color: #d2c4e7;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .welcome {
+      padding: 13px;
+      margin: 10px 0 25px;
+      background: #392c55;
+      border: 1px solid #8e77b6;
+      text-align: center;
+      color: #f2d9ed;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .card {
+      min-height: 130px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px 10px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,.35);
+      transition: transform .2s, filter .2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      filter: brightness(1.2);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-family: Georgia, serif;
+      font-size: 25px;
+      font-weight: normal;
+    }
+
+    .card span {
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+
+    .cherry { background: #75436f; }
+    .gus { background: #586044; }
+    .jorge { background: #355b91; }
+    .heli { background: #b85e8b; }
+    .danae { background: #718da4; }
+    .alex { background: #a83e48; }
+
+    footer {
+      margin-top: 35px;
+      padding-top: 15px;
+      border-top: 1px dashed #8876ad;
+      text-align: center;
+      color: #bfb2d9;
+      font-size: 10px;
+      line-height: 2;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 15px;
+      }
+
+      .grid {
+        gap: 10px;
+      }
+
+      .card {
+        min-height: 110px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="topbar">
+      <span>★ THE GANG ARCHIVE ★</span>
+      <span>EDICIÓN NAVIDEÑA · 2026</span>
+    </div>
+
+    <header>
+      <div class="sparkle">✦ ✧ ★ ✧ ✦</div>
+
+      <h1>Mixtapes Navideñas</h1>
+
+      <p class="subtitle">
+        Seis selecciones musicales.<br>
+        Seis universos personales.<br>
+        Un pequeño regalo para recordar.
+      </p>
+    </header>
+
+    <div class="welcome">
+      BIENVENIDO/A · ELIGE TU MIXTAPE
+    </div>
+
+    <section class="grid">
+
+      <a class="card cherry" href="cherry.html">
+        <h2>Cherry</h2>
+        <span>✧ ENTRAR ✧</span>
+      </a>
+
+      <a class="card gus" href="gus.html">
+        <h2>Gus</h2>
+        <span>✧ ENTRAR ✧</span>
+      </a>
+
+      <a class="card jorge" href="jorge.html">
+        <h2>Jorge</h2>
+        <span>✧ ENTRAR ✧</span>
+      </a>
+
+      <a class="card heli" href="heli.html">
+        <h2>Heli</h2>
+        <span>✧ ENTRAR ✧</span>
+      </a>
+
+      <a class="card danae" href="danae.html">
+        <h2>Dánae</h2>
+        <span>✧ ENTRAR ✧</span>
+      </a>
+
+      <a class="card alex" href="alex.html">
+        <h2>Alex</h2>
+        <span>✧ ENTRAR ✧</span>
+      </a>
+
+    </section>
+
+    <footer>
+      HECHO A MANO, CANCIÓN POR CANCIÓN.<br>
+      © THE GANG · NAVIDAD 2026
+    </footer>
+
+  </main>
+
+</body>
+</html>
+
